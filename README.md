@@ -30,7 +30,7 @@ terraform apply destroy.tflan
 ## Assumptions
  - It's permitted to provision more AWS resources than the exercise calls for, for example a NAT Gateway so the OS on EC2 in the private subnet can be updated and have NGINX installed with ease using apt retrieving from the internet
  - For ease and timeliness, used one terraform script and configuration is not flexible ie. no use of variables, looping. Instead the terraform script is very simple and involves duplication so not an example of best practices
- - Goal is to successfully provision a working environment and not successfully provision a working environment is as little time as possible. If the order of resource provision were changed ie. provision EC2 before ALB I suspect the total time to wait for a fully operational environment would decrease
+ - Goal is to successfully provision a working environment and not successfully provision a working environment in as little time as possible. If the order of resource provision were changed ie. provision EC2 before ALB I suspect the total time to wait for a fully operational environment would decrease
 
 ## Verifying environment build using terraform
 
