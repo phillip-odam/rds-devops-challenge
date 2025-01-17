@@ -48,7 +48,8 @@ If you issue a request using curl to the ALB too soon you may either see ```curl
 </html>
 ```
 
-Where ```<hostname>``` is the hostname of ALB from the terminal execute the command ```curl http://<hostname>/``` and you will recieve the output ```<h1>Page created by Phillip Odam</h1>```
+Where ```<hostname>``` is the hostname of ALB, from the terminal execute the command ```curl http://<hostname>/``` and you will recieve the output ```<h1>Page created by Phillip Odam</h1>```
 
 The same request except over HTTPS can be issued from the terminal by executing the command ```curl -k https://<hostname>/``` and again you will receive the output ```<h1>Page created by Phillip Odam</h1>```
 
+**Final note** there is a brief period of time between NGINX starting up and index.html being created, so there's a chance the response you recieve is the default NGINX welcome page.
