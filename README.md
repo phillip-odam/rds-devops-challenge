@@ -2,6 +2,7 @@
 
 ## Dependencies
  - terraform [https://www.terraform.io/](https://www.terraform.io/)
+   - required_version = ">= 1.10.4" could be added under terraform {} in the terraform script to ensure the latest version of terraform is used
  - AWS CLI [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/)
    - configure profile named rds in ~/.aws/credentials setting aws_access_key_id and aws_secret_access_key
 
