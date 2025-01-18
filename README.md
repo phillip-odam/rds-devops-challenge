@@ -5,7 +5,7 @@
  - AWS CLI [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/)
    - configure profile named rds in ~/.aws/credentials setting aws_access_key_id and aws_secret_access_key
 
-# Setup
+## Setup
 
 After cloning this repository, from the terminal you will need to change your local working directory to the be where this repository is located and then initialize terraform by executing the following command
 
